@@ -1,0 +1,15 @@
+<wxs src="../../common/wxs/touch-move.wxs" module="touch"></wxs>
+<view class="container">
+    <view class="tabs">
+        <block wx:for="{{tabs}}" wx:key="index">
+            <view data-index="{{index}}" bind:tap="handleTabChange" class="tab-item">
+                <view class="tab-label {{currentTabIndex === index ? 'active-tab' : ''}}">{{item}}</view>
+                <view hidden="{{currentTabIndex !== index}}" class="divider"></view>
+            </view>
+        </block>
+    </view>
+    <slot name="extend"></slot>
+    <view class="tab-panel" bind:touchstart="{{touch.handleTouchstart}}" bind:touchend="{{touch.handleTouchend}}">
+        <slot name="panel"></slot>
+    </view>
+</view>

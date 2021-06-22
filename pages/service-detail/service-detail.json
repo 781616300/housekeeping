@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-publiser-action": "components/publisher-action/index",
+    "i-consumer-action": "components/consumer-action/index"
+  }
+}

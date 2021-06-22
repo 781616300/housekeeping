@@ -1,0 +1,165 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/6/16 下午4:42:13
+使用方法：
+在 C:\Users\Lenovo\WeChatProjects\housekeeping\pages\home\home.wxml 引入模板
+
+```
+<import src="home.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 C:\Users\Lenovo\WeChatProjects\housekeeping\pages\home\home.wxss 中引入样式
+```
+@import "./home.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="container">
+      <view is="components/tabs/index">
+        <view class="tabs-index--container">
+          <view class="tabs-index--tabs">
+            <view class="tabs-index--tab-item" data-index="0">
+              <view class="tabs-index--tab-label tabs-index--active-tab sk-transparent sk-text-14-2857-870 sk-text">全部服务</view>
+              <view class="tabs-index--divider"></view>
+            </view>
+            <view class="tabs-index--tab-item" data-index="1">
+              <view class="tabs-index--tab-label sk-transparent sk-text-14-2857-844 sk-text">在提供</view>
+            </view>
+            <view class="tabs-index--tab-item" data-index="2">
+              <view class="tabs-index--tab-label sk-transparent sk-text-14-2857-906 sk-text">正在找</view>
+            </view>
+          </view>
+          <view>
+            <view class="category">
+              <image style="width: 80%;height: 75px;" class="sk-image"></image>
+            </view>
+          </view>
+          <view class="tabs-index--tab-panel">
+            <view>
+              <view is="components/service-preview/index">
+                <view class="index--container">
+                  <view class="index--left">
+                    <view class="index--type-tag sk-transparent sk-text-14-2857-177 sk-text">
+                      在提供
+                    </view>
+                    <image class="index--cover-image sk-image" mode="aspectFill"></image>
+                  </view>
+                  <view class="index--right">
+                    <view class="index--row">
+                      <view class="index--service-title sk-transparent sk-text-14-2857-390 sk-text">找对象，看这里</view>
+                      <view class="index--category">
+                        <view is="components/icon/index">
+                          <view class="icon-index--iconfont icon-index--icon-biaoqian sk-pseudo sk-pseudo-circle" style="font-size: 17px; color: #fbc02d;"></view>
+                        </view>
+                        <view class="index--category-text sk-transparent sk-text-14-2857-920 sk-text">婚恋</view>
+                      </view>
+                    </view>
+                    <view class="index--row">
+                      <view class="index--publisher">
+                        <view class="index--publisher-avatar">
+                          <image class="index--publisher-avatar-image sk-image"></image>
+                        </view>
+                        <view class="index--publisher-nickname sk-transparent sk-text-14-2857-404 sk-text">沁塵🙄</view>
+                      </view>
+                      <view class="index--score sk-transparent sk-text-14-2857-357 sk-text">※ 0</view>
+                    </view>
+                    <view class="index--row">
+                      <view class="index--create-time sk-transparent sk-text-14-2857-295 sk-text">2021-06-05 10:44:17</view>
+                    </view>
+                    <view class="index--row index--row-last">
+                      <view class="index--price sk-transparent">
+                        <text class="index--price-symbol sk-transparent sk-opacity">￥</text>5000.00</view>
+                      <view class="index--sales sk-transparent sk-text-14-2857-138 sk-text">已售0</view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+              <view is="components/service-preview/index">
+                <view class="index--container">
+                  <view class="index--left">
+                    <view class="index--type-tag sk-transparent sk-text-14-2857-125 sk-text">
+                      正在找
+                    </view>
+                    <image class="index--cover-image sk-image" mode="aspectFill"></image>
+                  </view>
+                  <view class="index--right">
+                    <view class="index--row">
+                      <view class="index--service-title sk-transparent sk-text-14-2857-404 sk-text">北京路附近寻保姆一名</view>
+                      <view class="index--category">
+                        <view is="components/icon/index">
+                          <view class="icon-index--iconfont icon-index--icon-biaoqian sk-pseudo sk-pseudo-circle" style="font-size: 17px; color: #fbc02d;"></view>
+                        </view>
+                        <view class="index--category-text sk-transparent sk-text-14-2857-90 sk-text">护理</view>
+                      </view>
+                    </view>
+                    <view class="index--row">
+                      <view class="index--publisher">
+                        <view class="index--publisher-avatar">
+                          <image class="index--publisher-avatar-image sk-image"></image>
+                        </view>
+                        <view class="index--publisher-nickname sk-transparent sk-text-14-2857-196 sk-text">沁塵</view>
+                      </view>
+                      <view class="index--score sk-transparent sk-text-14-2857-244 sk-text">※ 0</view>
+                    </view>
+                    <view class="index--row">
+                      <view class="index--create-time sk-transparent sk-text-14-2857-399 sk-text">2021-04-29 20:01:00</view>
+                    </view>
+                    <view class="index--row index--row-last">
+                      <view class="index--price sk-transparent">
+                        <text class="index--price-symbol sk-transparent sk-opacity">￥</text>12000.00</view>
+                      <view class="index--sales sk-transparent sk-text-14-2857-512 sk-text">已售0</view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+              <view is="components/service-preview/index">
+                <view class="index--container">
+                  <view class="index--left">
+                    <view class="index--type-tag sk-transparent sk-text-14-2857-574 sk-text">
+                      在提供
+                    </view>
+                    <image class="index--cover-image sk-image" mode="aspectFill"></image>
+                  </view>
+                  <view class="index--right">
+                    <view class="index--row">
+                      <view class="index--service-title sk-transparent sk-text-14-2857-829 sk-text">汽车维护保养套餐</view>
+                      <view class="index--category">
+                        <view is="components/icon/index">
+                          <view class="icon-index--iconfont icon-index--icon-biaoqian sk-pseudo sk-pseudo-circle" style="font-size: 17px; color: #fbc02d;"></view>
+                        </view>
+                        <view class="index--category-text sk-transparent sk-text-14-2857-815 sk-text">汽修</view>
+                      </view>
+                    </view>
+                    <view class="index--row">
+                      <view class="index--publisher">
+                        <view class="index--publisher-avatar">
+                          <image class="index--publisher-avatar-image sk-image"></image>
+                        </view>
+                        <view class="index--publisher-nickname sk-transparent sk-text-14-2857-99 sk-text">沁塵</view>
+                      </view>
+                      <view class="index--score sk-transparent sk-text-14-2857-983 sk-text">※ 5</view>
+                    </view>
+                    <view class="index--row">
+                      <view class="index--create-time sk-transparent sk-text-14-2857-119 sk-text">2021-04-29 19:40:42</view>
+                    </view>
+                    <view class="index--row index--row-last">
+                      <view class="index--price sk-transparent">
+                        <text class="index--price-symbol sk-transparent sk-opacity">￥</text>2999.00</view>
+                      <view class="index--sales sk-transparent sk-text-14-2857-796 sk-text">已售7</view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+              <view is="components/service-preview/index">
+                <view class="index--container"></view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

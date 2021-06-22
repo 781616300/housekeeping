@@ -1,0 +1,29 @@
+var touchStartX
+
+function handleTouchstart (e) {
+    touchStartX = e.changedTouches[0].clientX
+}
+
+function handleTouchend (e, ownerInstance) {
+    var touchEndX = e.changedTouches[0].clientX
+    var distance = touchEndX - touchStartX
+    var direction = 0
+    if (distance < 0 && distance < -70) {
+        direction = 1
+    }
+
+    if (distance > 0 && distance > 70) {
+        direction = -1
+    }
+
+    if (direction !== 0) {
+        ownerInstance.callMethod('handleTouchMove', {
+            direction: direction
+        })
+    }
+}
+
+module.exports = {
+    handleTouchstart: handleTouchstart,
+    handleTouchend: handleTouchend
+}
