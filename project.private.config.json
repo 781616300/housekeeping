@@ -23,6 +23,12 @@
                     "pathName": "pages/login/login",
                     "query": "",
                     "scene": null
+                },
+                {
+                    "name": "pages/publish/publish",
+                    "pathName": "pages/publish/publish",
+                    "query": "",
+                    "scene": null
                 }
             ]
         }

@@ -10,7 +10,8 @@
         "pages/chat/chat",
         "pages/order/order",
         "pages/order-success/order-success",
-        "pages/my-order/my-order"
+        "pages/my-order/my-order",
+        "pages/publisher-success/publisher-success"
     ],
     "usingComponents": {
         "i-icon": "/components/icon/index",
@@ -22,8 +23,11 @@
         "i-service-rating": "/components/service-rating/index",
         "i-show-status": "/components/show-status/index",
         "i-safe-area": "/components/safe-area/index",
-
-        "mp-msg": "weui-miniprogram/msg/msg"
+        "i-image-uploader": "/components/image-uploader/index",
+        "mp-msg": "weui-miniprogram/msg/msg",
+        "mp-form": "weui-miniprogram/form/form",
+        "mp-cell": "weui-miniprogram/cell/cell",
+        "mp-toptips": "weui-miniprogram/toptips/toptips"
     },
     "useExtendedLib": {
         "weui": true

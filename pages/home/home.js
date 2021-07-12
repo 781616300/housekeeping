@@ -14,7 +14,7 @@ Page({
         loading: true
     },
 
-    async onLoad (options) {
+    async onLoad () {
         const userInfo = wx.getStorageSync('userInfo')
         if (userInfo) {
             this.setData({

@@ -1,4 +1,5 @@
-const formatTime = date => {
+const formatTime = () => {
+    const date = new Date()
     const year = date.getFullYear()
     const month = date.getMonth() + 1
     const day = date.getDate()
@@ -14,6 +15,11 @@ const formatNumber = n => {
     return n[1] ? n : `0${n}`
 }
 
+/**
+ * promise封装
+ * @param func
+ * @returns {function(*=): Promise<unknown>}
+ */
 const promisic = function (func) {
     return function (params = {}) {
         return new Promise((resolve, reject) => {
@@ -56,6 +62,34 @@ const throttle = function (callback, duration = 500) {
 }
 
 /**
+ * @desc 防抖函数
+ * @param func 函数
+ * @param wait 延迟执行毫秒数
+ * @param immediate true 表立即执行，false 表非立即执行
+ */
+const debounce = function (func, wait, immediate = true) {
+    let timeout
+
+    return function () {
+        let context = this
+        let args = arguments
+
+        if (timeout) clearTimeout(timeout)
+        if (immediate) {
+            const callNow = !timeout
+            timeout = setTimeout(() => {
+                timeout = null
+            }, wait)
+            if (callNow) func.apply(context, args)
+        } else {
+            timeout = setTimeout(function () {
+                func.apply(context, args)
+            }, wait)
+        }
+    }
+}
+
+/**
  * 获取事件回调参数的自定义属性
  * @param {Object} event
  * @param {String} target
@@ -88,6 +122,7 @@ module.exports = {
     promisic,
     prompt,
     throttle,
+    debounce,
     getDataSet,
     getEventParam
 }
