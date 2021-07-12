@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be64c341-4708-4497-82a3-9fc12ed17a09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/tim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tim/generate-test-usersig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tim/lib-generate-test-usersig.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram_npm/tim-upload-plugin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram_npm/tim-upload-plugin/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram_npm/tim-wx-sdk-ws/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram_npm/tim-wx-sdk-ws/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/tim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/image-uploader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/image-uploader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/service-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/service-form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/service-form/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/service-form/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/service-form/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/service-form/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publish/publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publish/publish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publish/publish.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publish/publish.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/publisher-success/publisher-success.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publisher-success/publisher-success.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/service-edit/service-edit.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service-edit/service-edit.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.private.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.private.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <workItem from="1625449006137" duration="3000" />
       <workItem from="1625450915814" duration="2197000" />
       <workItem from="1625464406843" duration="1826000" />
-      <workItem from="1626056361372" duration="5266000" />
+      <workItem from="1626056361372" duration="14962000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,9 @@
-import ServiceStatus from '../../enum/ServiceStatus'
+import { serviceStatus } from '../../enum/service-status'
 
 Page({
     data: {
         type: null,
-        ServiceStatus
+        serviceStatus
     },
     onLoad: function (options) {
         this.data.type = options.type
