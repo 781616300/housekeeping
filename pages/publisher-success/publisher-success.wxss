@@ -1,1 +1,3 @@
-/* pages/publisher-success/publisher-success.wxss */
+page {
+    background-color: #fff;
+}

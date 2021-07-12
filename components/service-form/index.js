@@ -3,22 +3,17 @@ import { getDataSet, getEventParam } from '../../utils/util'
 import { Category } from '../../models/category'
 import moment from '../../lib/moment'
 
+let resetForm = true
+
 Component({
 
     properties: {
         form: Object
     },
 
-    observers: {
-        'form': function (newValue) {
-            if (!newValue) {
-                return
-            }
-            this._init()
-        }
-    },
-
     data: {
+        serviceTypeEnum: serviceType,
+        showForm: true,
         typeList: [
             {
                 id: serviceType.PROVIDE,
@@ -112,6 +107,20 @@ Component({
         error: null
     },
 
+    pageLifetimes: {
+        show () {
+            if (resetForm) {
+                this._init(this.data.form)
+            }
+        },
+
+        hide () {
+            if (resetForm) {
+                this.setData({ showForm: false })
+            }
+        }
+    },
+
     methods: {
         async _init () {
             const form = this.data.formData
@@ -123,6 +132,7 @@ Component({
 
             this.setData({
                 categoryList,
+                showForm: true,
                 files: this.data.form.cover_image ? [this.data.form.cover_image] : [],
                 typePickerIndex: typePickerIndex !== -1 ? typePickerIndex : null,
                 categoryPickerIndex: categoryPickerIndex !== -1 ? categoryPickerIndex : null,
@@ -205,5 +215,9 @@ Component({
                 [`formData.end_date`]: endDate
             })
         },
+
+        handleHidePage () {
+            resetForm = false
+        }
     }
 })

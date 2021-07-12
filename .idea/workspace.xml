@@ -2,33 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be64c341-4708-4497-82a3-9fc12ed17a09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/image-uploader/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/image-uploader/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/image-uploader/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/image-uploader/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/service-form/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/service-form/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/service-form/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/service-form/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/file-uploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/iconfont/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/image-uploader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/image-uploader/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/service-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/service-form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/service-form/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/service-form/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/service-form/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/service-form/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/publish/publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publish/publish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publish/publish.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publish/publish.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publish/publish.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publish/publish.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/service-edit/service-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service-edit/service-edit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/service-edit/service-edit.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service-edit/service-edit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/service-edit/service-edit.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service-edit/service-edit.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.private.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.private.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publish/publish.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publish/publish.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publisher-success/publisher-success.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publisher-success/publisher-success.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/service-edit/service-edit.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service-edit/service-edit.wxss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +91,7 @@
       <workItem from="1625449006137" duration="3000" />
       <workItem from="1625450915814" duration="2197000" />
       <workItem from="1625464406843" duration="1826000" />
-      <workItem from="1626056361372" duration="1678000" />
+      <workItem from="1626056361372" duration="5266000" />
     </task>
     <servers />
   </component>

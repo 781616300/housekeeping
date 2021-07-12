@@ -1,1 +1,4 @@
-/* pages/service-edit/service-edit.wxss */
+.container {
+    padding: 30rpx 0 150rpx 0;
+    background: #ffffff;
+}
