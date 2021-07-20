@@ -2,7 +2,10 @@
 import TIM from 'tim-wx-sdk-ws'
 import TIMUploadPlugin from 'tim-upload-plugin'
 import { timConfig } from '../config/tim'
-const genTestUserSig = require('../lib/tim/generate-test-usersig')
+import genTestUserSig from '../lib/tim/generate-test-usersig'
+import { User } from './user'
+
+// const genTestUserSig = require('../lib/tim/generate-test-usersig')
 
 class Tim {
     /**
@@ -45,6 +48,10 @@ class Tim {
         })
     }
 
+    logout () {
+        this._SDKInstance.logout()
+    }
+
     async getMessageList (targetUserId, count = 10) {
         if (this._isCompleted) {
             return this._messageList
@@ -62,11 +69,18 @@ class Tim {
         return this._messageList
     }
 
-    _reset () {
+    reset () {
         this._nextRquMessageID = ''
         this._isCompleted = false
         this._messageList = []
         return this
+    }
+
+    async setMessageRead (targetUserId) {
+        const res = await this._SDKInstance.setMessageRead({
+            conversationID: `C2C${targetUserId}`
+        })
+        return res.data
     }
 }
 

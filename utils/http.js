@@ -3,6 +3,8 @@ import exceptionMessage from '../config/exception-message'
 import { promisic } from './util'
 import { cache } from '../enum/cache'
 import { User } from '../models/user'
+import { createStoreBindings } from 'mobx-miniprogram-bindings'
+import { timStore } from '../store/tim'
 
 class Http {
     static async request ({ url, data, method = 'GET', refetch = true }) {
@@ -26,8 +28,16 @@ class Http {
         }
 
         if (res.statusCode === 401) {
+            this.storeBindings = createStoreBindings(this, {
+                store: timStore,
+                field: ['sdkReady'],
+                actions: { timLogout: 'logout' },
+            })
             //令牌异常
             if (res.data.error_code === 10001) {
+                if (this.sdkReady) {
+                    this.timLogout()
+                }
                 wx.navigateTo({
                     url: `/pages/login/login`
                 })
@@ -35,6 +45,9 @@ class Http {
             }
             if (refetch) {
                 return await Http._refetch({ url, data, method, refetch })
+            }
+            if (this.sdkReady) {
+                this.timLogout()
             }
 
         }

@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "i-chat-window": "components/chat-window/index"
+  }
 }

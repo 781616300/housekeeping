@@ -2,21 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be64c341-4708-4497-82a3-9fc12ed17a09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/tim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tim/generate-test-usersig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tim/lib-generate-test-usersig.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/tim-upload-plugin/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/tim-upload-plugin/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/tim-wx-sdk-ws/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniprogram_npm/tim-wx-sdk-ws/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/tim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram_npm/mobx-miniprogram-bindings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram_npm/mobx-miniprogram-bindings/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniprogram_npm/mobx-miniprogram/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/chat-window/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/chat-window/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/chat-window/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/chat-window/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/message/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/message/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/message/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/message/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/service-link/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/service-link/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/service-link/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/components/service-link/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/tim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Lenovo.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/safe-area/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/safe-area/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/show-status/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/show-status/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/show-status/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/show-status/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tim/generate-test-usersig.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tim/generate-test-usersig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tim/lib-generate-test-usersig.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tim/lib-generate-test-usersig.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram_npm/tim-upload-plugin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram_npm/tim-upload-plugin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram_npm/tim-wx-sdk-ws/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram_npm/tim-wx-sdk-ws/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tim.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/chat/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat/chat.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat/chat.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/message/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publisher-success/publisher-success.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publisher-success/publisher-success.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/message.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/message.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.private.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.private.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.json" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/http.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +119,11 @@
       <workItem from="1625450915814" duration="2197000" />
       <workItem from="1625464406843" duration="1826000" />
       <workItem from="1626056361372" duration="14962000" />
+      <workItem from="1626083112416" duration="361000" />
+      <workItem from="1626135776301" duration="8721000" />
+      <workItem from="1626146639988" duration="1553000" />
+      <workItem from="1626156985455" duration="21000" />
+      <workItem from="1626762247060" duration="8076000" />
     </task>
     <servers />
   </component>
@@ -103,14 +134,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Inspections" timestamp="1622914984453">
+    <state x="233" y="0" key="#Inspections" timestamp="1626762272527">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1622914984453" />
+    <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1626762272527" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626147786187">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1626147786187" />
     <state x="390" y="210" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1622884025417">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="390" y="210" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.680@0.0.1280.680" timestamp="1622884025417" />
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1626157004563">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1626157004563" />
     <state x="420" y="82" key="FileChooserDialogImpl" timestamp="1622884018904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -123,13 +162,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1624332003569" />
+    <state x="321" y="73" width="638" height="534" key="find.popup" timestamp="1626769182942">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="73" width="638" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1626769182942" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1623564737410">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1623564737410" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1624020083470">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1626770746540">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1624020083470" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1626770746540" />
   </component>
 </project>

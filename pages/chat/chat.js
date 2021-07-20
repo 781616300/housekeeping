@@ -1,17 +1,31 @@
-import { Tim } from '../../models/tim'
-import TIM from 'tim-wx-sdk-ws'
+import { createStoreBindings } from 'mobx-miniprogram-bindings'
+import { timStore } from '../../store/tim'
 
 Page({
-
-    data: {},
-
-    onLoad: function (options) {
-        const userId = 25000000
-        Tim.getInstance().login()
-        Tim.getInstance().getSDK().on(TIM.EVENT.SDK_READY, async () => {
-            const res = await Tim.getInstance().getMessageList(userId)
-            console.log(res)
+    data: {
+        someData: '...',
+        targetUserId: null,
+        service: null
+    },
+    onLoad (options) {
+        this.storeBindings = createStoreBindings(this, {
+            store: timStore,
+            fields: ['sdkReady'],
+        })
+        this.setData({
+            targetUserId: options.targetUserId,
+            service: options.service
         })
     },
 
+    handleLogin () {
+        wx.navigateTo({
+            url: `/pages/login/login`
+        })
+    },
+
+    onUnload () {
+        this.storeBindings.destroyStoreBindings()
+    }
 })
+

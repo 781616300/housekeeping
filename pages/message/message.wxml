@@ -1,2 +1,12 @@
-<!--pages/message/message.wxml-->
-<text>pages/message/message.wxml</text>
+<swiper circular indicator-dots indicator-color="#f0f0f0" indicator-active-color="#666" class="container">
+    <block wx:for="{{pages}}" wx:key="index">
+        <swiper-item class="icons-realm">
+            <block wx:for="{{pages[index]}}" wx:key="index">
+                <view bind:tap="onClickIcon" data-id="{{item.id}}" class="icon-container">
+                    <image class="icon-img" src="{{item.imgUrl}}"></image>
+                    <div class="icon-desc">{{item.desc}}</div>
+                </view>
+            </block>
+        </swiper-item>
+    </block>
+</swiper>

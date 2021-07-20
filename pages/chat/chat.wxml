@@ -1,2 +1,8 @@
-<!--pages/chat/chat.wxml-->
-<text>pages/chat/chat.wxml</text>
+<view wx:if="{{sdkReady}}" class="container">
+    <i-chat-window targetUserId="{{targetUserId}}" service="{{service}}"></i-chat-window>
+</view>
+<view wx:else >
+    <i-show-status top="500" show content="会话加载失败~~~">
+        <i-button bind:tap="handleLogin" shape="semicircle">点击刷新</i-button>
+    </i-show-status>
+</view>

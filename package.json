@@ -20,6 +20,8 @@
   "homepage": "https://github.com/zhangyuan722/housekeeping#readme",
   "description": "",
   "dependencies": {
+    "mobx-miniprogram": "^4.13.2",
+    "mobx-miniprogram-bindings": "^2.0.0",
     "tim-upload-plugin": "^1.0.2",
     "tim-wx-sdk-ws": "^2.12.0"
   }

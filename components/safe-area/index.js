@@ -1,3 +1,8 @@
 Component({
-    properties: { area: String }
+    properties: {
+        area: {
+            type: String,
+            value: 'bottom'
+        }
+    }
 })
