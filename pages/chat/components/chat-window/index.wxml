@@ -1,13 +1,16 @@
-<view class="container">
-    <view class="message-list">
-        <view wx:for="{{messageList}}" wx:key="index">
-            <i-message message="{{item}}"></i-message>
+<view class="container" xmlns:bind="http://www.w3.org/1999/xhtml">
+    <scroll-view bind:crolltouper="handleCrolltouper" scroll-into-view="message-{{intoView}}" scroll-y show-scrollbar="{{false}}" style="height: {{scrollHeight}}px;" enhanced class="message-list">
+        <view wx:for="{{messageList}}" wx:key="index" id="message-{{index}}">
+            <i-message bind:send="handleSendList" bind:select="handleSelect" message="{{item}}"></i-message>
         </view>
-    </view>
+    </scroll-view>
     <view class="action-bar">
-        <i-icon bind:tap="handleSendImage" name="picture"></i-icon>
-        <textarea bind:tap="handleInput"></textarea>
-        <i-button bind:tap="handleSend" shape="circle" size="mini">发送</i-button>
+        <view class="inner-container">
+            <i-icon bind:tap="handleSendImage" name="picture" color="#333333" size="60"></i-icon>
+            <textarea bind:input="handleInput" value="{{text}}" hold-keyboard placeholder="不要乱说话哦" class="chat-textarea" auto-height cursor-spacing="{{30}}"
+                      disabled-default-padding fixed></textarea>
+            <i-button bind:tap="handleSend" shape="circle" size="mini">发送</i-button>
+        </view>
+        <i-safe-area></i-safe-area>
     </view>
-    <i-safe-area></i-safe-area>
 </view>

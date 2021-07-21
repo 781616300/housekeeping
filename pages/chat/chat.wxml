@@ -1,5 +1,5 @@
 <view wx:if="{{sdkReady}}" class="container">
-    <i-chat-window targetUserId="{{targetUserId}}" service="{{service}}"></i-chat-window>
+    <i-chat-window bind:sendmessage="handleSendMessage" targetUserId="{{targetUserId}}" service="{{service}}"></i-chat-window>
 </view>
 <view wx:else >
     <i-show-status top="500" show content="会话加载失败~~~">

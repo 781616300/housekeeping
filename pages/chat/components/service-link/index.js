@@ -14,8 +14,20 @@ Component({
     },
 
     data: {
-        _service: null
+        _service: null,
+        flowEnum: {
+            IN: 'in',
+            OUT: 'out'
+        }
     },
 
-    methods: {}
+    methods: {
+        handleSendLink () {
+            this.triggerEvent('send', { service: this.data._service })
+        },
+
+        handleSelect () {
+            this.triggerEvent('select', { service: this.data._service })
+        }
+    }
 })

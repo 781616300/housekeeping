@@ -1,5 +1,6 @@
 import { formatTime } from '../../../../utils/date'
 import { TIM } from 'tim-wx-sdk-ws'
+import { getDataSet, getEventParam } from '../../../../utils/util'
 
 Component({
 
@@ -24,5 +25,23 @@ Component({
         }
     },
 
-    methods: {}
+    methods: {
+        handleSend (event) {
+            const service = getEventParam(event, 'service')
+            this.triggerEvent('send', { service })
+        },
+
+        handleSelect (event) {
+            const service = getEventParam(event, 'service')
+            this.triggerEvent('send', { service })
+        },
+
+        async handlePreview (event) {
+            const url = getDataSet(event, 'image')
+            await wx.previewImage({
+                current: url,
+                urls: [url]
+            })
+        }
+    }
 })

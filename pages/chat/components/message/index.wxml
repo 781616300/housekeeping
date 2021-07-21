@@ -9,10 +9,11 @@
                 {{_message.payload.text}}
             </block>
             <block wx:if="{{_message.type === TIM.TYPES.MSG_IMAGE}}">
-                <image src="{{_message.payload.imageInfoArray[1].url}}"></image>
+                <image bind:tap="handlePreview" data-image="{{_message.payload.imageInfoArray[1].url}}" mode="center" src="{{_message.payload.imageInfoArray[1].url}}"></image>
             </block>
             <block wx:if="{{_message.type === TIM.TYPES.MSG_CUSTOM}}">
-                <i-service-link></i-service-link>
+                <i-service-link bind:send="handleSend" bind:select="handleSelect" flow="{{_message.flow}}"
+                                service="{{_message.payload.description}}"></i-service-link>
             </block>
         </view>
     </view>
