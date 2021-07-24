@@ -15,7 +15,7 @@ Component({
         },
 
         handleChat () {
-            this.triggerEvent('chat')
+            this.triggerEvent('chat-preview')
         }
     }
 })

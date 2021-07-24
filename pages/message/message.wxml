@@ -1,12 +1,17 @@
-<swiper circular indicator-dots indicator-color="#f0f0f0" indicator-active-color="#666" class="container">
-    <block wx:for="{{pages}}" wx:key="index">
-        <swiper-item class="icons-realm">
-            <block wx:for="{{pages[index]}}" wx:key="index">
-                <view bind:tap="onClickIcon" data-id="{{item.id}}" class="icon-container">
-                    <image class="icon-img" src="{{item.imgUrl}}"></image>
-                    <div class="icon-desc">{{item.desc}}</div>
-                </view>
-            </block>
-        </swiper-item>
+<view class="container">
+    <block wx:if="{{sdkReady}}">
+        <block wx:if="{{conversationList.length}}">
+            <i-show-status content="暂无会话" show></i-show-status>
+        </block>
+        <block wx:else>
+            <i-conversation-preview bind:tap="handleSelect" data-item="{{item}}" wx:for="{{conversationList}}" wx:key="index" user="{{item.userProfile}}"
+                                    lastMessage="{{item.lastMessage}}" unreadCount="{{item.unreadCount}}">
+            </i-conversation-preview>
+        </block>
     </block>
-</swiper>
+    <block wx:else>
+        <i-show-status content="会话列表加载失败" show>
+            <i-button bind:tap="handleToLogin" shape="semicircle" fontColor="#333333">点击刷新</i-button>
+        </i-show-status>
+    </block>
+</view>

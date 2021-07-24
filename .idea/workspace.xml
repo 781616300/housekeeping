@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be64c341-4708-4497-82a3-9fc12ed17a09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/message/components/chat-preview/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/message/components/chat-preview/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/message/components/chat-preview/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/message/components/chat-preview/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/tim.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tim.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/chat/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chat/chat.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat/chat.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/chat/components/chat-window/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/components/chat-window/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/chat/components/chat-window/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/components/chat-window/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chat/components/chat-window/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/components/chat-window/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chat/components/message/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/components/message/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/chat/components/message/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/components/message/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/chat/components/service-link/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/components/service-link/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/chat/components/service-link/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/components/service-link/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chat/components/service-link/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/components/service-link/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/message.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/message.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/tim.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/tim.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +101,8 @@
       <workItem from="1626146639988" duration="1553000" />
       <workItem from="1626156985455" duration="21000" />
       <workItem from="1626762247060" duration="9490000" />
-      <workItem from="1626850709941" duration="7089000" />
+      <workItem from="1626850709941" duration="7283000" />
+      <workItem from="1627084170536" duration="9016000" />
     </task>
     <servers />
   </component>

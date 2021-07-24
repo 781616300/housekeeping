@@ -52,11 +52,31 @@ class Tim {
         this._SDKInstance.logout()
     }
 
+    async getConversationList () {
+        const res = await this._SDKInstance.getConversationList()
+        return res.data.conversationList
+    }
+
+    async getUserProfile (targetUserId) {
+        const res = await this._SDKInstance.getUserProfile({
+            userIdList: [targetUserId]
+        })
+        return res.data
+    }
+
+    async updateUserProfile (userInfo) {
+        await this._SDKInstance.updateMyProfile({
+            nick: userInfo.nickname,
+            avatar: userInfo.avatar,
+            gender: userInfo.gender === 1 ? TIM.TYPES.GENDER_MALE : TIM.TYPES.GENDER_FEMALE
+        })
+    }
+
     async getMessageList (targetUserId, count = 10) {
         if (this._isCompleted) {
             return this._messageList
         }
-        const res = this._SDKInstance.getMessageList({
+        const res = await this._SDKInstance.getMessageList({
             conversationID: `C2C${targetUserId}`,
             nextReqMessageID: this._nextRquMessageID,
             count: count > 15 ? 15 : count

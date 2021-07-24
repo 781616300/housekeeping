@@ -2,7 +2,8 @@ Component({
 
     properties: {
         flow: String,
-        service: String
+        service: String,
+        extension: String
     },
 
     lifetimes: {

@@ -1,5 +1,6 @@
 import { createStoreBindings } from 'mobx-miniprogram-bindings'
 import { timStore } from '../../store/tim'
+import { Tim } from '../../models/tim'
 
 Page({
     data: {
@@ -11,17 +12,19 @@ Page({
         this.storeBindings = createStoreBindings(this, {
             store: timStore,
             fields: ['sdkReady'],
+            actions: ['pushMessage']
         })
         this.setData({
             targetUserId: options.targetUserId,
-            service: options.service
+            service: options.service ? JSON.parse(options.service) : null
         })
     },
 
-    handleSendMessage (event) {
+    async handleSendMessage (event) {
         const { type, content } = event.detail
         const message = Tim.getInstance().createMessage(type, content, this.data.targetUserId)
-        Tim.getInstance().sendMessage(message)
+        this.pushMessage(message)
+        await Tim.getInstance().sendMessage(message)
     },
 
     handleLogin () {
@@ -34,4 +37,3 @@ Page({
         this.storeBindings.destroyStoreBindings()
     }
 })
-
