@@ -1,7 +1,7 @@
 <view class="container">
     <block wx:if="{{sdkReady}}">
         <block wx:if="{{conversationList.length}}">
-            <i-show-status content="暂无会话" show></i-show-status>
+            <i-show-status content="暂无会话" top="500" show></i-show-status>
         </block>
         <block wx:else>
             <i-conversation-preview bind:tap="handleSelect" data-item="{{item}}" wx:for="{{conversationList}}" wx:key="index" user="{{item.userProfile}}"

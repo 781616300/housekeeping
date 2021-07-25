@@ -1,1 +1,4 @@
-/* pages/chat-preview/chat-preview.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+}

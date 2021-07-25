@@ -1,3 +1,5 @@
+import { cache } from '../enum/cache'
+
 const formatTime = () => {
     const date = new Date()
     const year = date.getFullYear()
@@ -117,6 +119,24 @@ const prompt = function (title, duration = '800', icon = 'none') {
     wx.showToast({ title, duration, icon })
 }
 
+const setTabBarBadge = async function (unreadCount) {
+    try {
+        if (unreadCount > 0) {
+            await wx.setTabBarBadge({
+                index: 2,
+                text: String(unreadCount)
+            })
+        } else {
+            await wx.removeTabBarBadge({ index: 2 })
+        }
+        wx.setStorageSync(cache.UNREAD_COUNT, 0)
+    } catch (e) {
+        wx.setStorageSync(cache.UNREAD_COUNT, unreadCount)
+        console.log(e)
+    }
+
+}
+
 module.exports = {
     formatTime,
     promisic,
@@ -124,5 +144,6 @@ module.exports = {
     throttle,
     debounce,
     getDataSet,
-    getEventParam
+    getEventParam,
+    setTabBarBadge
 }

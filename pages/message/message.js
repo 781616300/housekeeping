@@ -1,11 +1,13 @@
 import { timStore } from '../../store/tim'
 import { createStoreBindings } from 'mobx-miniprogram-bindings'
-import { getDataSet } from '../../utils/util'
+import { getDataSet, setTabBarBadge } from '../../utils/util'
+import { cache } from '../../enum/cache'
 
 Page({
 
     data: {
-        getConversationList: []
+        getConversationList: [],
+        updateConversationList: false
     },
 
     onLoad: function (options) {
@@ -17,9 +19,15 @@ Page({
     },
 
     handleSelect (event) {
+        this.data.updateConversationList = true
         const item = getDataSet(event, 'item')
         wx.navigateTo({
-            url: `/pages/chat/chat?targetUserId=${item.userProfile.userID}&service=''`
+            url: `/pages/chat/chat?targetUserId=${item.userProfile.userID}&service=''`,
+            event: {
+                sendMessage: () => {
+                    this.data.updateConversationList = false
+                }
+            }
         })
     },
 
@@ -27,6 +35,15 @@ Page({
         wx.navigateTo({
             url: `/pages/login/login`
         })
+    },
+
+    async onShow () {
+        if (this.data.updateConversationList) {
+            this.getConversationList()
+            this.data.updateConversationList = false
+        }
+        const unreadCount = wx.getStorageSync(cache.UNREAD_COUNT)
+        await setTabBarBadge(unreadCount)
     },
 
     onUnload () {

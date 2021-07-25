@@ -12,7 +12,8 @@ Component({
     },
 
     data: {
-        text: ''
+        text: '',
+        scrollHeight: 0
     },
 
     behaviors: [storeBindingsBehavior],

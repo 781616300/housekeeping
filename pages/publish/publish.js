@@ -1,5 +1,6 @@
 import { Service } from '../../models/service'
-import { getEventParam } from '../../utils/util'
+import { getEventParam, setTabBarBadge } from '../../utils/util'
+import { cache } from '../../enum/cache'
 
 Page({
 
@@ -65,5 +66,10 @@ Page({
             price: ''
         }
         this.setData({ formData })
-    }
+    },
+
+    async onShow () {
+        const unreadCount = wx.getStorageSync(cache.UNREAD_COUNT)
+        await setTabBarBadge(unreadCount)
+    },
 })

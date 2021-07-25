@@ -19,11 +19,14 @@
         "i-avatar": "/components/avatar/index",
         "i-rating": "/components/rating/index",
         "i-tabs": "/components/tabs/index",
-        "i-service-preview": "/components/service-preview/index",
-        "i-service-rating": "/components/service-rating/index",
-        "i-show-status": "/components/show-status/index",
         "i-safe-area": "/components/safe-area/index",
         "i-image-uploader": "/components/image-uploader/index",
+        "i-show-status": "/components/show-status/index",
+        "i-badge": "/components/badge/index",
+
+        "i-service-preview": "/components/service-preview/index",
+        "i-service-rating": "/components/service-rating/index",
+
         "mp-msg": "weui-miniprogram/msg/msg",
         "mp-form": "weui-miniprogram/form/form",
         "mp-cells": "weui-miniprogram/cells/cells",

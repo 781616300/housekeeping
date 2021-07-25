@@ -9,7 +9,7 @@ class User {
 
     static async login () {
         const token = await Token.getToken()
-        wx.setStorageSync(cache.Token, token)
+        wx.setStorageSync(cache.TOKEN, token)
     }
 
     static async updateUserInfo (userInfo) {

@@ -15,7 +15,7 @@ class Http {
                 data,
                 method,
                 header: {
-                    token: wx.getStorageSync(cache.Token)
+                    token: wx.getStorageSync(cache.TOKEN)
                 }
             })
         } catch (e) {

@@ -12,7 +12,7 @@ Page({
         this.storeBindings = createStoreBindings(this, {
             store: timStore,
             fields: ['sdkReady'],
-            actions: ['pushMessage']
+            actions: ['pushMessage', 'resetMessage']
         })
         this.setData({
             targetUserId: options.targetUserId,
@@ -25,6 +25,7 @@ Page({
         const message = Tim.getInstance().createMessage(type, content, this.data.targetUserId)
         this.pushMessage(message)
         await Tim.getInstance().sendMessage(message)
+        this.getOpenerEventChannel().emit('sendMessage')
     },
 
     handleLogin () {
@@ -34,6 +35,7 @@ Page({
     },
 
     onUnload () {
+        this.resetMessage()
         this.storeBindings.destroyStoreBindings()
     }
 })

@@ -1,6 +1,7 @@
 import { observable, action } from 'mobx-miniprogram'
 import { Tim } from '../models/tim'
 import TIM from 'tim-wx-sdk-ws'
+import { setTabBarBadge } from '../utils/util'
 
 export const timStore = observable({
 
@@ -20,6 +21,13 @@ export const timStore = observable({
 
     logout: action(function () {
         Tim.getInstance().logout()
+    }),
+
+    resetMessage: action(function () {
+        this.messageList = []
+        this._targetUserId = null
+        this.intoView = 0
+        this.isCompleted = false
     }),
 
     pushMessage: action(function (message) {
@@ -90,5 +98,7 @@ export const timStore = observable({
             return
         }
         this.conversationList = event.data
+        const unreadCount = event.data.reduce((sum, item) => sum + item.unreadCount, 0)
+        setTabBarBadge(unreadCount)
     },
 })

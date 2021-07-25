@@ -1,6 +1,7 @@
 const cache = {
     USER_INFO: 'user_info',
-    Token: 'token'
+    TOKEN: 'token',
+    UNREAD_COUNT: 'unread_count'
 }
 
 export { cache }

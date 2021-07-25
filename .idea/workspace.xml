@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be64c341-4708-4497-82a3-9fc12ed17a09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/badge/count.wxs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/badge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/badge/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/badge/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/badge/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enum/cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/enum/cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/token.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat/chat.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat/chat.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/chat.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat/components/chat-window/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat/components/chat-window/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/components/chat-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/components/chat-preview/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/message.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/message/message.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/message/message.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publish/publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publish/publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.private.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.private.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/tim.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/tim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +110,8 @@
       <workItem from="1626156985455" duration="21000" />
       <workItem from="1626762247060" duration="9490000" />
       <workItem from="1626850709941" duration="7283000" />
-      <workItem from="1627084170536" duration="10247000" />
+      <workItem from="1627084170536" duration="10435000" />
+      <workItem from="1627168285915" duration="5121000" />
     </task>
     <servers />
   </component>
@@ -132,9 +158,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1623564737410" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1626851936618">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1627175826922">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1626851936618" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1627175826922" />
   </component>
 </project>

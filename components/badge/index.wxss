@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dot {
+    width: 34rpx;
+    height: 34rpx;
+    position: absolute;
+    top: -10rpx;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 18rpx;
+}
+
+.top-left {
+    left: -24rpx;
+}
+
+.top-right {
+    right: -24rpx;
+}

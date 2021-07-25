@@ -89,7 +89,7 @@ Page({
     },
 
     handleOrder () {
-        if (!wx.getStorageSync(cache.Token)) {
+        if (!wx.getStorageSync(cache.TOKEN)) {
             wx.navigateTo({
                 url: `/pages/login/login`,
                 events: {
