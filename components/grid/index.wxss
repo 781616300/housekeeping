@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60rpx 30rpx;
+    background: #ffffff;
+    font-size: 24rpx;
+    border-radius: 20rpx;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 34rpx;
+    font-weight: bold;
+}
+
+.extend {
+    color: #888888;
+}

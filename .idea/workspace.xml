@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be64c341-4708-4497-82a3-9fc12ed17a09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/grid-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/grid-item/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/grid-item/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/grid-item/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/grid/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/grid/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/grid/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/grid/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/grid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/token.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enum/role-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/enum/role-type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iconfont/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/iconfont/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/my/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/my/my.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.private.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.private.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order-success/order-success.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order-success/order-success.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +108,7 @@
       <workItem from="1626850709941" duration="7283000" />
       <workItem from="1627084170536" duration="10435000" />
       <workItem from="1627168285915" duration="5558000" />
-      <workItem from="1627431315878" duration="1174000" />
+      <workItem from="1627431315878" duration="13560000" />
     </task>
     <servers />
   </component>

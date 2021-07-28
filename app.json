@@ -23,6 +23,8 @@
         "i-image-uploader": "/components/image-uploader/index",
         "i-show-status": "/components/show-status/index",
         "i-badge": "/components/badge/index",
+        "i-grid": "/components/grid/index",
+        "i-grid-item": "/components/grid-item/index",
 
         "i-service-preview": "/components/service-preview/index",
         "i-service-rating": "/components/service-rating/index",

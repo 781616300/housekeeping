@@ -24,5 +24,13 @@
     "mobx-miniprogram-bindings": "^2.0.0",
     "tim-upload-plugin": "^1.0.2",
     "tim-wx-sdk-ws": "^2.12.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

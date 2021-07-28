@@ -62,6 +62,12 @@ class Service extends Base {
         })
     }
 
+    static getServiceStatus (type) {
+        return Http.request({
+            url: `v1/service/count?type=${type}`
+        })
+    }
+
 }
 
 export {

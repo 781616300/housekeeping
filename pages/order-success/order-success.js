@@ -1,4 +1,4 @@
-import { roleTyle } from '../../enum/role-type'
+import { roleType } from '../../enum/role-type'
 import { orderStatus } from '../../enum/order-status'
 
 Page({
@@ -11,7 +11,7 @@ Page({
 
     handleCheckOrder () {
         wx.navigateTo({
-            url: `/pages/my-order/my-order?role=${roleTyle.CONSUMER}&status=${orderStatus.UNAPPROVED}`
+            url: `/pages/my-order/my-order?role=${roleType.CONSUMER}&status=${orderStatus.UNAPPROVED}`
         })
     },
 

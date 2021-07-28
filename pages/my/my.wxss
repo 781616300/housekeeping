@@ -1,1 +1,17 @@
-/* pages/my/my.wxss */
+.container {
+    padding-bottom: 200rpx;
+}
+
+.header {
+    height: 240rpx;
+    background: #f3d066;
+    padding: 30rpx;
+}
+
+.main {
+    padding: 0 30rpx;
+}
+
+.grid-container {
+    margin-top: 30rpx;
+}

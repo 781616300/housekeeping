@@ -13,11 +13,11 @@ Page({
         })
     },
 
-    onUnload() {
+    onUnload () {
         this.storeBindings.destroyStoreBindings()
     },
 
-    async handleLogin () {
+    handleLogin: async function () {
         const res = await wx.getUserProfile({
             desc: '完善用户信息'
         })
@@ -30,20 +30,21 @@ Page({
             await User.login()
             await User.updateUserInfo(res.userInfo)
             this.timLogin()
+
             const events = this.getOpenerEventChannel()
-            events.emit('login')
-            wx.navigateBack()
+            events.emit('login', '登录成功')
+            this.pageRouter.navigateBack()
         } catch (e) {
             wx.showModal({
                 title: '注意',
                 content: '登录失败，请稍后重试',
                 showCancel: false
             })
-            console.log(e)
+            console.error(e)
         }
 
         wx.hideLoading()
-        wx.navigateBack()
+        this.pageRouter.navigateBack()
     },
 
     handleToHome () {

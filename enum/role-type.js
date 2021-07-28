@@ -1,6 +1,6 @@
-const roleTyle = {
+const roleType = {
     PUBLISHER: 1,
     CONSUMER: 2,
 }
 
-export { roleTyle }
+export { roleType }
