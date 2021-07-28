@@ -4,6 +4,6 @@
         <view bind:tap="handleExtend" wx:if="{{extend}}" class="extend">{{extend}}</view>
     </view>
     <view wx:for="{{gridItems}}" wx:key="index" style="width: {{100 / rowNum}}%;">
-        <slot name="{{index}}"></slot>
+        <slot bind:select="handleSelect" name="{{index}}"></slot>
     </view>
 </view>

@@ -1,5 +1,5 @@
 import { cache } from '../../enum/cache'
-import { setTabBarBadge } from '../../utils/util'
+import { getEventParam, setTabBarBadge } from '../../utils/util'
 import { Token } from '../../models/token'
 import { User } from '../../models/user'
 import { appointWithMeGrid, myAppointGrid, myProvideGird, mySeekGrid } from '../../config/grid'
@@ -31,6 +31,20 @@ Page({
     },
 
     onLoad: function (options) {
+
+    },
+
+    handleNavToOrder (event) {
+        const cell = getEventParam(event, 'cell')
+        if (!('status' in cell)) {
+            this.pageRouter.navigateTo({
+                url: `/pages/refund-list/refund-list?role=${cell.role}`
+            })
+            return
+        }
+        this.pageRouter.navigateTo({
+            url: `/pages/my-order/my-order?role=${cell.role}&status=${cell.status}`
+        })
 
     },
 

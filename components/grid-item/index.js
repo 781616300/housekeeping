@@ -8,7 +8,8 @@ Component({
         },
         text: String,
         showBadge: Boolean,
-        badgeCount: Number
+        badgeCount: Number,
+        cell: Object
     },
 
     data: {},
@@ -19,5 +20,9 @@ Component({
         }
     },
 
-    methods: {}
+    methods: {
+        handleSelect () {
+            this.triggerEvent('select', { cell: this.data.cell }, { bubbles: true, composed: true })
+        }
+    }
 })

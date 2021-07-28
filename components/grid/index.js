@@ -1,3 +1,5 @@
+import { getEventParam } from '../../utils/util'
+
 Component({
 
     options: {
@@ -33,6 +35,11 @@ Component({
             const items = this.getRelationNodes('../grid-item/index')
             const gridItems = items.map((item, index) => index)
             this.setData({ gridItems })
+        },
+
+        handleSelect (event) {
+            const cell = getEventParam(event, 'cell')
+            this.triggerEvent('itemtap', { cell })
         },
 
         handleExtend (e) {
