@@ -1,2 +1,5 @@
-<!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view class="container">
+    <view class="header">
+        <i-avatar bind:tap="handleToLogin" src="{{userInfo.avatar}}" text="{{userInfo.nickname}}" shape="circle" fontSize="34"></i-avatar>
+    </view>
+</view>

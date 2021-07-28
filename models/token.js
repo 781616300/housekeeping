@@ -1,5 +1,6 @@
 import { Http } from '../utils/http'
 import APIConfig from '../config/api'
+import { User } from './user'
 
 class Token {
     static async getToken () {

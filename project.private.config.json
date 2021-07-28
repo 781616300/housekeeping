@@ -35,6 +35,12 @@
                     "pathName": "pages/message/message",
                     "query": "",
                     "scene": null
+                },
+                {
+                    "name": "pages/my/my",
+                    "pathName": "pages/my/my",
+                    "query": "",
+                    "scene": null
                 }
             ]
         }
