@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    padding: 30rpx;
+    background: #ffffff;
+    border-radius: 20rpx;
+    font-size: 24rpx;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-status {
+    color: #ff0000;
+}
+
+.center {
+    display: flex;
+    margin: 30rpx 0;
+}
+
+.cover-image {
+    width: 180rpx;
+    height: 190rpx;
+    border-radius: 10rpx;
+}
+
+.right {
+    width: 100%;
+    height: 190rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30rpx;
+}
+
+.service-name {
+    min-width: 100rpx;
+    max-width: 340rpx;
+    font-style: 32rpx;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.price {
+    color: #ff0000;
+}
+
+.price-value {
+    font-size: 32rpx;
+}

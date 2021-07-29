@@ -12,7 +12,8 @@
         "pages/order-success/order-success",
         "pages/my-order/my-order",
         "pages/publisher-success/publisher-success",
-        "pages/refund-list/refund-list"
+        "pages/refund-list/refund-list",
+        "pages/my-service/my-service"
     ],
     "usingComponents": {
         "i-icon": "/components/icon/index",
@@ -26,10 +27,8 @@
         "i-badge": "/components/badge/index",
         "i-grid": "/components/grid/index",
         "i-grid-item": "/components/grid-item/index",
-
         "i-service-preview": "/components/service-preview/index",
         "i-service-rating": "/components/service-rating/index",
-
         "mp-msg": "weui-miniprogram/msg/msg",
         "mp-form": "weui-miniprogram/form/form",
         "mp-cells": "weui-miniprogram/cells/cells",
