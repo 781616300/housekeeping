@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 4135813 */
+    src: url('//at.alicdn.com/t/c/font_4135813_1znejpgvm8q.woff2?t=1729154667620') format('woff2'),
+    url('//at.alicdn.com/t/c/font_4135813_1znejpgvm8q.woff?t=1729154667620') format('woff'),
+    url('//at.alicdn.com/t/c/font_4135813_1znejpgvm8q.ttf?t=1729154667620') format('truetype');
+}
+.icon-a-087_biaoqing:before {
+    content: "\e7d9";
+}

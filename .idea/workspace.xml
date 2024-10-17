@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be64c341-4708-4497-82a3-9fc12ed17a09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/iconfont/index1.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/wxs/touch-move.wxs" beforeDir="false" afterPath="$PROJECT_DIR$/common/wxs/touch-move.wxs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/tabs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/tabs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/tabs/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/tabs/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/token.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/my/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/my/my.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/icon/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/icon/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/service-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/service-preview/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my-service/my-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my-service/my-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my-service/my-service.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my-service/my-service.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.private.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.private.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +48,7 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "dev",
+    "last_opened_file_path": "/Users/fengliye/workspace-person/housekeeping/iconfont",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +57,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/iconfont" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -114,7 +119,7 @@
       <workItem from="1627431315878" duration="18353000" />
       <workItem from="1627518608077" duration="1553000" />
       <workItem from="1627526418680" duration="3108000" />
-      <workItem from="1729141052056" duration="4634000" />
+      <workItem from="1729141052056" duration="12920000" />
     </task>
     <servers />
   </component>

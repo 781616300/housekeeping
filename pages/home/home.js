@@ -35,6 +35,7 @@ Page({
     },
 
     async _getServiceList () {
+        //fly .reset() 为了解决初始化时，service对象有之前访问过的page，data数据，所以需要重置，因为service对象是单例的
         const serviceList = await service.reset().getServiceList(this.data.categoryId, this.data.tabIndex)
         this.setData({ serviceList })
     },

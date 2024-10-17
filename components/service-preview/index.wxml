@@ -9,7 +9,11 @@
         <view class="row">
             <view class="service-title">{{service.title}}</view>
             <view class="category">
-                <i-icon name="biaoqian"></i-icon>
+                <!-- fly 可以自定义icon-font标签，历史的也不冲突
+                /Users/fengliye/workspace-person/housekeeping/iconfont/index1.wxss
+                i-icon 其实是一个组件
+                -->
+                <i-icon name="a-087_biaoqing"></i-icon>
                 <view class="category-text">{{service.category.name}}</view>
             </view>
         </view>

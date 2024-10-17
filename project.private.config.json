@@ -6,6 +6,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/my-order/my-order",
+          "pathName": "pages/my-order/my-order",
+          "query": "role=1&status=-1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "pages/my/my",
           "pathName": "pages/my/my",
           "query": "",
