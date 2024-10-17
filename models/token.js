@@ -1,13 +1,14 @@
 import { Http } from '../utils/http'
 import APIConfig from '../config/api'
 import { User } from './user'
+import {cache} from "../enum/cache";
 
 class Token {
     static tokenUrl = 'v1/token'
 
     static async getToken () {
         const res = await Http.request({
-            url: `${APIConfig.baseUrl}/${this.tokenUrl}`,
+            url: `${this.tokenUrl}`,
             data: {
                 i_code: APIConfig.iCode,
                 order_no: APIConfig.orderNo
@@ -19,7 +20,7 @@ class Token {
     }
 
     static async verifyToken () {
-        const token = User.getUserInfoByLocal()
+        const token = this.getTokenByLocal()
         return Http.request({
             url: `${Token.tokenUrl}/verify`,
             data: { token },
@@ -39,6 +40,10 @@ class Token {
         if (userInfoSetting === true) {
             return authUserinfo.AUTHORIZED
         }
+    }
+
+    static getTokenByLocal () {
+        return wx.getStorageSync(cache.TOKEN)
     }
 
 }

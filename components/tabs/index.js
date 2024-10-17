@@ -1,6 +1,7 @@
 import { throttle } from '../../utils/util'
 
 Component({
+    // fly 启用多个插槽配置
     options: { multipleSlots: true },
 
     properties: {
