@@ -15,6 +15,7 @@
 
 更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
 -->
+<!-- fly 骨架屏微信开发者 可以自动生成-->
 <template name="skeleton">
   <view class="sk-container">
     <view class="container">

@@ -92,6 +92,7 @@ Page({
         if (!wx.getStorageSync(cache.TOKEN)) {
             wx.navigateTo({
                 url: `/pages/login/login`,
+                // fly 页面间事件通信
                 events: {
                     login: () => {
                         this._checkRole()

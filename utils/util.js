@@ -39,7 +39,7 @@ const promisic = function (func) {
 }
 
 /**
- * 节流函数
+ *  fly 节流函数
  * @param {Function} callback 需要被节流的函数
  * @param {Number} duration 距离上次执行超过多少毫秒才会执行被节流的函数
  * @returns

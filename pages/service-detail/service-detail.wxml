@@ -1,5 +1,6 @@
 <import src="service-detail.skeleton.wxml"/>
 <template is="skeleton" wx:if="{{loading}}" />
+<!-- fly wxs 枚举封装-->
 <wxs src="/common/wxs/status-text.wxs" module="statusText"></wxs>
 <view class="container">
     <view class="inner-container">
@@ -62,6 +63,7 @@
     <view class="action-bar">
         <i-publiser-action bind:update="handleUpdateStatus" bind:edit="handleEditService" wx:if="{{isPublisher}}" service="{{service}}"></i-publiser-action>
         <i-consumer-action bind:chat="handleChat" bind:order="handleOrder" wx:if="{{!isPublisher}}" service="{{service}}"></i-consumer-action>
+        <!-- fly 安全区域-->
         <i-safe-area area="bottom"></i-safe-area>
     </view>
 </view>

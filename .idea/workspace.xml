@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be64c341-4708-4497-82a3-9fc12ed17a09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/iconfont/index1.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/icon/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/icon/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/service-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/service-preview/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/my-service/my-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my-service/my-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/my-service/my-service.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my-service/my-service.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.private.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.private.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.skeleton.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.skeleton.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/service-detail/components/behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service-detail/components/behavior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/service-detail/components/publisher-action/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service-detail/components/publisher-action/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/service-detail/service-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service-detail/service-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/service-detail/service-detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service-detail/service-detail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": -1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="1tWQeyOy7qVN7MksgV1G5TMviwI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,17 +48,20 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "dev",
-    "last_opened_file_path": "/Users/fengliye/workspace-person/housekeeping/iconfont",
+    "last_opened_file_path": "/Users/fengliye/workspace-person/housekeeping/enum",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/enum" />
+      <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/iconfont" />
     </key>
   </component>
@@ -119,7 +122,9 @@
       <workItem from="1627431315878" duration="18353000" />
       <workItem from="1627518608077" duration="1553000" />
       <workItem from="1627526418680" duration="3108000" />
-      <workItem from="1729141052056" duration="12920000" />
+      <workItem from="1729141052056" duration="15490000" />
+      <workItem from="1729225866926" duration="9000" />
+      <workItem from="1729225890602" duration="7136000" />
     </task>
     <servers />
   </component>

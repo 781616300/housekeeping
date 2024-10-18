@@ -31,6 +31,7 @@ Page({
             await User.updateUserInfo(res.userInfo)
             this.timLogin()
 
+            // fly 页面事件通信
             const events = this.getOpenerEventChannel()
             events.emit('login', '登录成功')
             this.pageRouter.navigateBack()
